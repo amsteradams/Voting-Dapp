@@ -1,0 +1,35 @@
+#spot{
+    width:22px;
+    height:22px;
+}
+#pp{
+    height:125px;
+    width:125px;
+    transform: translateY(-5%);
+}
+
+#userDisplay{
+    display:flex;
+    flex-direction: row;
+    width:25%;
+    padding:0.5%;
+    align-items: center;
+    justify-content: center;
+}
+#userDisplay #span img{
+    transform: translateY(50%);
+    margin-right: 7px;
+}
+#userDisplay #span{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: center;
+}
+
+#infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:8vh;
+}

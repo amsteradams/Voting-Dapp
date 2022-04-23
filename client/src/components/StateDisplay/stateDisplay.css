@@ -1,0 +1,28 @@
+#StateDisplay{
+    margin-top: 5%;    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    flex-direction: column;
+}
+
+#Progress-bar{
+    border:3px solid white;
+    width: 25vw;
+    height:3vh;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+
+#remplissage{
+    background-color: rgb(40, 167, 69);
+    width:50%;
+    height:3vh;
+    animation-duration: 1500ms;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    transition: 3s;
+}
+
+

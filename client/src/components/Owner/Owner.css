@@ -1,0 +1,17 @@
+#owner{
+width:15%;
+background-color: #1b1b1b;
+border-top-left-radius: 5px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+#owner p{
+    font-size: 1.7em;
+    height:20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

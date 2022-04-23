@@ -1,0 +1,14 @@
+#winning{
+    border-radius: 10px;
+    width:35vw;
+    height:30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b1b1b;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:5%;
+    font-size: 3em;
+}

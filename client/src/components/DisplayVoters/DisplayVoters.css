@@ -1,0 +1,74 @@
+.voter{
+    display: flex;
+    justify-content: center;
+    background-color: #121212;
+    width: 90%;
+    padding: 5px;
+    border-radius: 5px;
+    margin:5px;
+}
+
+#displayVoters{
+    border-top-right-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    background-color: #1b1b1b;
+    height:100%;
+}
+
+#displayVoters p {
+    font-size: 1.7em;
+    height:20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#spot-copy{
+    width:25px;
+    height:25px;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+#search-input{
+    width:70%;
+    height:5%;
+    background-color: #121212;
+    font-size: 1em;
+    border: transparent;
+    margin-bottom: 5%;
+    text-align: center;
+    color:white;
+    padding: 2px;
+}
+
+#btn-search{
+    background-color: rgb(40, 167, 69);
+    border:0px;
+    height: 5%;
+    width: 40%;
+    font-size: 1.2em;
+    border-radius: 10px;
+    color:white;
+}
+#displayOne{
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+    width:80%;
+    height:220px;
+    margin-top: 4%;
+    border-radius: 5px;
+}
+#vot-ctn{
+    display:flex;
+    flex-direction: column;
+    font-size: 0.6em;
+}
+.green{
+    color:rgb(40, 167, 69);
+}

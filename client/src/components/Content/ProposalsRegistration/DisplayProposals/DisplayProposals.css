@@ -1,0 +1,32 @@
+#displayProposals{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.proposal{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:400px;
+    margin:15px;
+    background-color: #1b1b1b;
+    border-radius: 10px;
+}
+
+#prop-ctn{
+    display:flex;
+    align-items:center;  
+}
+#prop-text{
+    color:rgb(40, 167, 69);
+    font-size: 1.2em;
+}
+#prop-vote{
+    margin-left:10px;
+}
+#prop-id{
+    margin-right:10px;
+}
