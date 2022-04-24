@@ -64,4 +64,4 @@ Contrat : https://ropsten.etherscan.io/address/0xFc81B3A3a8A9a5cB24865D3de5D1320
 
 ## Coverage 
 
-![gas reporting](https://github.com/amsteradams/Voting-Dapp/blob/main/coverage.PNG)
+![gas reporting](https://github.com/amsteradams/Voting-Dapp/blob/main/coverage.png)
