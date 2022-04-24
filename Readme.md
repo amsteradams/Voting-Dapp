@@ -1,8 +1,10 @@
 ## Notes : 
 
-Lien de la Dapp (deployé sur Ropsten) : https://voting-theta.vercel.app/?
+Lien de la Dapp (deployée sur Ropsten) : https://voting-theta.vercel.app/?
 
 Video de présentation : https://www.loom.com/share/26a58b7d1b144b19b5626ef2a192b08b
+
+Contrat : https://ropsten.etherscan.io/address/0xFc81B3A3a8A9a5cB24865D3de5D13201b085321C
 
 ## Tests Contract: Voting
 
@@ -29,7 +31,6 @@ Video de présentation : https://www.loom.com/share/26a58b7d1b144b19b5626ef2a192
       ✓ should revert if current status isnt ProposalsRegistrationStarted (57825 gas)
       ✓ should revert if proposition is empty (27975 gas)
       ✓ should emit a ProposalRegistered event (76560 gas)
-      ✓ should add 20 propositions (1208340 gas)
       ->getOneProposal
         ✓ should revert if a non voter try to getOneProposal
     #endProposalsRegistering
@@ -59,8 +60,8 @@ Video de présentation : https://www.loom.com/share/26a58b7d1b144b19b5626ef2a192
 
 ## Gas report
 
-![gas reporting](https://github.com/amsteradams/truffle-Voting/blob/main/capture-ethGasReporting-voting.PNG)
+![gas reporting](https://github.com/amsteradams/Voting-Dapp/blob/main/capture-ethGasReporting-voting.png)
 
 ## Coverage 
 
-![gas reporting](https://github.com/amsteradams/truffle-Voting/blob/main/coverage.PNG)
+![gas reporting](https://github.com/amsteradams/Voting-Dapp/blob/main/coverage.PNG)
