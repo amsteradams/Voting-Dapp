@@ -1,6 +1,10 @@
-# Tests Voting.sol
-https://www.loom.com/share/26a58b7d1b144b19b5626ef2a192b08b
-### Contract: Voting
+## Notes : 
+
+Lien de la Dapp (deployé sur Ropsten) : https://voting-theta.vercel.app/?
+
+Video de présentation : https://www.loom.com/share/26a58b7d1b144b19b5626ef2a192b08b
+
+## Tests Contract: Voting
 
     #OWNERSHIP
       ✓ owner() should return accounts[0]
